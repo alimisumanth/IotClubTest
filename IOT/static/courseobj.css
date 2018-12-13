@@ -1,0 +1,9 @@
+{% load static from staticfiles %}
+h3{
+   color: blueviolet;
+    padding-left:10px;
+}
+li{padding-left: 20px;}
+h4{color: green;
+padding-left: 20px;}
+p{padding-left: 35px;}

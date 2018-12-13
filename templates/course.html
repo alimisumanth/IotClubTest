@@ -1,0 +1,100 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>course</title>
+      <link rel="stylesheet" href="{% static 'background.css' %}">
+      <link rel="stylesheet" href="{% static 'courseobj.css' %}">
+    <style>
+         .lmain{display: inline-block;
+            width: 23%; }
+
+        .rmain{display: inline-block;
+            width: 23%; }
+        .cmain{display: inline-block;
+            width:50%; }
+         .lcontact{display: inline-block;
+            width: 50%; }
+        .rcontact{display: inline-block;
+            width: 49%;
+       }
+        .contact{display: inline-block;
+            width:100%; }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div align="center" class="lmain" ><img src="{% static 'logo.png' %}" width="100px" height="100px"></div>
+    <div align="center" class="cmain"><h2>Anurag Group of Institutions</h2><h2>IOT Club</h2></div>
+    <div align="center" class="rmain"><img src="{% static 'Iot.png' %}" width="70px" height="80px"></div>
+</div>
+<div class="lnk" align="right" style="padding-right:30px; ">
+    <a href="../">homepage</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="../course">Course objectives</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="../workshops" >Workshops organised</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="../achievements">achievements</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="../corebody">corebody</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="../projects">Projects</a>
+</div>
+<div  class="lm" >
+    <h2 class="chead" align="center">Course Objectives</h2>
+<h3 class="s1">a)	Objectives:</h3>
+<ol type="1">
+  <li>Identify different types of sensors</li>
+  <li>Analyze different types of communication protocols</li>
+  <li>Construct a hardware setup for IoT Application</li>
+  <li>Identify IoT Enabling Technologies</li>
+  <li>Develop IoT Application</li>
+</ol>
+<h3 class="s1">b)	Course Content</h3>
+<h4>Module 1:</h4>
+<p>Introduction to IoT Concepts and Terminology of the IoT</p>
+<p>IoT Standards</p>
+<p>Components of IoT</p>
+<h4>Module 2:</h4>
+<p>Difference between Digital Signal and Analog Signal</p>
+<p>Basic of Digital Electronics</p>
+<p>Difference between Microcontroller and Microprocessor</p>
+<h4>Module 3:</h4>
+<p>Types of Sensors</p>
+<p>Hands on basic sensors with Arduino</p>
+<p>Hands on basic sensors with Raspberry Pi 3</p>
+<h4>Module 4:</h4>
+<p>Types of Communication Protocols</p>
+<p>Overview of IoT Platforms</p>
+<p>IoT Architecture</p>
+<h4>Module 5:</h4>
+<p>Introcution to Cloud Computing</p>
+<p>Introduction to Big Data</p>
+<p>Difference between IoT and M2M</p>
+<h4>Module 6:</h4>
+<p>Hardware Security </p>
+<p>Network Security</p>
+<p>Cloud Security</p>
+<h4>Module 6:</h4>
+<p>The group will mainly consist of students of II, III, IV year. </p>
+<h4>d)	Duration/Dates:- six week</h4>
+<p>e)	Coordinator Details :-Mr.G.Balram, Assistant Professor, CSE Department
+    Email:- balaramcse@cvsr.ac.in</p>
+
+</div>
+
+<div class="contact">
+<div class="lcontact" align="center">
+    <p>Address</p>
+   <p>Anurag Group of Institutions</p>
+   <p>Venkatapur, Ghatkesar,</p>
+   <p>Medchal (Dist.), Hyderabad,</p>
+  <p>Telangana, INDIA - 500 088</p>
+
+</div>
+    <div class="rcontact" align="center">
+        <p>Contact Details</p>
+        <p>Mr. G. Balram:</p>
+        <p>9492064511</p>
+        <p>balramcse@cvsr.ac.in</p>
+    </div>
+</div>
+</body>
+</html>

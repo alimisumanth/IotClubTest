@@ -1,0 +1,6 @@
+{% load static from staticfiles %}
+th{
+    color:darkcyan;
+}
+h3{
+   color: blueviolet;}

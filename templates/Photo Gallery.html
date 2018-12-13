@@ -1,0 +1,80 @@
+{% load static from staticfiles %}
+<html>
+<head>
+    <title>Corebody</title>
+    <link rel="stylesheet" href="{% static 'background.css' %}">
+    <style>
+
+        .lmain{display: inline-block;
+            width: 23%; }
+        .rmain{display: inline-block;
+            width: 23%; }
+        .cmain{display: inline-block;
+            width:50%; }
+         .lcontact{display: inline-block;
+            width: 50%; }
+        .rcontact{display: inline-block;
+            width: 49%;
+       }
+        .contact{display: inline-block;
+            width:100%; }
+      .img1{
+            width: 880px;
+            height:485px;
+         margin-left: 250px;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+<div class="main">
+    <div align="center" class="lmain" ><img src="{% static 'logo.png' %}" width="70px" height="80px"></div>
+    <div align="center" class="cmain"><h2>Anurag Group of institutions</h2><h2>IOT Club</h2></div>
+    <div align="center" class="rmain"><img src="{% static 'iot.png' %}" width="70px" height="80px"></div>
+</div>
+
+<div class="lnk" align="right" style="padding-right:30px; ">
+    <a href="../">homepage</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="../course">Course objectives</a>&nbsp&nbsp&nbsp&nbsp
+    <a href="../workshops" >Workshops organised</a>&nbsp&nbsp&nbsp&nbsp
+        <a href="../achievements">achievements</a>&nbsp&nbsp&nbsp&nbsp
+            <a href="../corebody">corebody</a>&nbsp&nbsp&nbsp&nbsp
+                 <a href="../photo_gallery">Photo Gallery</a>&nbsp&nbsp&nbsp&nbsp
+                <a href="../projects">Projects</a>&nbsp&nbsp&nbsp&nbsp
+</div>
+
+<div class="image"><img class="img1" src="{% static 'Vertigo.JPG' %}"></div>
+      <div class="image"><img class="img1" src="{% static 'bestpro.JPG' %}"></div>
+      <div class="image"><img class="img1" src="{% static 'SCH.jpeg' %}"></div>
+      <div class="image"><img class="img1" src="{% static 'training.JPG' %}"></div>
+      <div class="image"><img class="img1" src="{% static 'sih2k17.jpeg.jpg' %}"></div>
+              <div class="image"><img class="img1" src="{% static 'dsc.jpg' %}"></div>
+              <div class="image"><img class="img1" src="{% static 'team2.jpg' %}"></div>
+              <div class="image"><img class="img1" src="{% static 'team3.jpg' %}"></div>
+      <div class="image"><img class="img1" src="{% static 'wrk1.jpg' %}"></div>
+      <div class="image"><img class="img1" src="{% static 'wrk2.jpg' %}"></div>
+
+<br/>
+<div class="contact">
+<div class="lcontact" align="center">
+    <p>Address</p>
+   <p>Anurag Group of Institutions</p>
+   <p>Venkatapur, Ghatkesar,</p>
+   <p>Medchal (Dist.), Hyderabad,</p>
+  <p>Telangana, INDIA - 500 088</p>
+
+</div>
+    <div class="rcontact" align="center">
+        <p>Contact Details</p>
+        <p>Mr. G. Balram:</p>
+        <p>9492064511</p>
+        <p>balramcse@cvsr.ac.in</p>
+    </div>
+</div>>
+
+
+</body>
+</html>
